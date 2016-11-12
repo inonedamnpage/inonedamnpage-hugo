@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>In One Damn Page</title>
+    <link>https://inonedamnpage.github.io/categories/index.xml</link>
+    <description>Recent content on In One Damn Page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://inonedamnpage.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>start</title>
+      <link>https://inonedamnpage.github.io/post/start/</link>
+      <pubDate>Sat, 12 Nov 2016 19:16:45 +0530</pubDate>
+      
+      <guid>https://inonedamnpage.github.io/post/start/</guid>
+      <description>&lt;p&gt;Hello World Hello&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
