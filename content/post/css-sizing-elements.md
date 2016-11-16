@@ -14,9 +14,9 @@ description = "All about sizing things in CSS."
 
 # The CSS Box Model
 
-All elements in an HTML page can be broken down to and represented in boxes. So CSS provides a box model which is used to size elements. 
+All elements in an HTML page can be broken down to and represented in boxes. So CSS provides a box model which is used to size elements.
 
-The basic content of HTML is surrounded by `padding`, `border`, and `margin`. While by default (`box-sizing: content-box`), padding. border and margin are thought to be outside the element, you can change padding and border to be inside and margin on the outside. 
+The basic content of HTML is surrounded by `padding`, `border`, and `margin`. While by default (`box-sizing: content-box`), padding. border and margin are thought to be outside the element, you can change padding and border to be inside and margin on the outside.
 
 {{< codecaption lang="css" title="CSS Box Sizing" >}}
 * {
@@ -33,11 +33,9 @@ CSS elements can have two kind of display properties:
 
 # Semantic Elements
 
-Semantic elements make it easier to organise content in an HTML page. They also make the markup readable and provide support for accessibility and SEO. Some kind of semantic elements are: `<header>, <footer>, <section>, <article>` etc. 
+Semantic elements make it easier to organise content in an HTML page. They also make the markup readable and provide support for accessibility and SEO. Some kind of semantic elements are: `<header>, <footer>, <section>, <article>` etc.
 
 # Some Advanced CSS Properties
 
-* _float_: Incase of an image, the specify the direction the image will align to, and the text will take up rest of the page. 
-
-
-
+* _float_: Incase of an image, the specify the direction the image will align to, and the text will take up rest of the page.
+* _vertical-align_: Allows to align inline elements vertically, much like `text-align` but vertical.
