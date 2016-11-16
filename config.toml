@@ -1,9 +1,9 @@
 baseurl = "https://inonedamnpage.github.io/"
 title = "In One Damn Page"
 languageCode = "en-us"
-paginate = 10
+paginate = 6
 theme = "Hugo-Octopress"
-canonifyurls = true
+disablePathToLower = false
 
 [indexes]
 	tag = "tags"
@@ -18,6 +18,7 @@ canonifyurls = true
 
 	# This text appears in the site header under website title
 	subtitle = "Personal Notes While Learning"
+	searchEngineURL = "https://www.google.com/search"
 
 	# Google analytics code
 	# googleAnalytics = "google analytics"
@@ -31,3 +32,15 @@ canonifyurls = true
 	# Website's default description
 	defaultDescription = "Saurav Modak's Learning Site"
 	pygmentscodefences = true
+
+	github = "https://github.com/uniquerockrz/"
+	twitter = "https://twitter.com/SauravAtFreedom/"
+  	facebook = "https://facebook.com/sauravmodak"
+
+	sidebarRecentLimit = 10
+	tableOfContents = true
+
+[[menu.main]]
+  	Name = "Home"
+  	URL = "/"
+  	weight = -10
