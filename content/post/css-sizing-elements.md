@@ -31,6 +31,10 @@ CSS elements can have two kind of display properties:
 * `display: block`: Take up as much width as possible (with restraint from parent) and height according to the content. Eg: `<div>`.
 * `display: inline`: Take up height and width according to content. Eg: `<span>`. You cannot set the height and width of these elements, but can set the border and padding (which gets applied to the sides but not in top and bottom). Inline elements wrap when the content is bigger than their parent.
 
+# Most Used HTML Elements For Styling
+
+`<div>` and `<span>` are the generic HTML elements can be used for applying styles. Divs are the most generic block elements while spans are most generic inline elements. 
+
 # Semantic Elements
 
 Semantic elements make it easier to organise content in an HTML page. They also make the markup readable and provide support for accessibility and SEO. Some kind of semantic elements are: `<header>, <footer>, <section>, <article>` etc.

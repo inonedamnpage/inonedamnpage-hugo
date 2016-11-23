@@ -79,3 +79,9 @@ Colors in CSS can be represented in two ways:
 * _border_: The border width, style and color around an element. eg `2px dotted blue`.
 * _border-radius_: How rounded the borders are, in pixels. Length are given in clockwise direction.
 * _box-shadow_: The shadow around box elements. Any number of shadows can be specified. Eg `10px 10px gray, 20px 20px`.
+
+# Normalizing Styles
+
+Different browses have different browser styles for displaying elements, which may make the web pages look differently in different browsers. For this reason, we use browser resets which reset the style and make the web page look the same. 
+
+Two most popular resets are [Mayerweb](http://meyerweb.com/eric/tools/css/reset/) which resets things completely or [Normalize](https://github.com/necolas/normalize.css/) which applies some good looking default styles to elements.
