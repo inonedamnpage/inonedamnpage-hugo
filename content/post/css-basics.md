@@ -43,6 +43,26 @@ div {
 }
 {{< /codecaption >}}
 
+# Cascading Nature Of Selectors
+
+In general, CSS styles are applied in a cascading way, e.g., if two selectors target the same element, then the style appearing later in the sheet gets applied. However, there are a few exceptions.
+
+Tag selectors have a value of `0-0-1`, class ones have `0-1-0` and id have the highest `1-0-0`. Which means id selectors take precedent even when they come before other styles targeting the same element in style-sheet.
+
+You can combine selectors, and whether they will get applied or not will depend on their combined value. 
+
+{{< codecaption lang="css" title="Combining Selectors" >}}
+.hotdog p {
+    background: brown;
+}
+.hotdog p.mustard {
+    background: yellow;
+}
+{{< /codecaption >}}
+
+The first selector has the combined value of `0-1-0 + 0-0-1` equals `0-1-1`. Like wise, the second one has the value of `0-2-1`. Hence the later style has higher precedence. However, note there is no space in the second selector, which means it will get applied to paragraphs only having that classname. If the paragraph selector is removed, then it will select any element with the class mustard.
+
+
 # Types of CSS Units
 
 Units are used everywhere in CSS to specify length, width, height etc of content and tags. They are basically divided into absolute and relative units.

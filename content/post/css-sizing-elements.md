@@ -12,6 +12,14 @@ description = "All about sizing things in CSS."
 
 +++
 
+# CSS Display Properties
+
+CSS elements can have three kind of display properties:
+
+* `display: block`: Take up as much width as possible (with restraint from parent) and height according to the content. Eg: `<div>`. All block elements begin at a new line.
+* `display: inline`: Take up height and width according to content. Eg: `<span>`. You cannot set the height and width of these elements, but can set the border and padding (which gets applied to the sides but not in top and bottom). Inline elements wrap when the content is bigger than their parent. They get displayed in the same line as other elements provided there is space. 
+* `display: inline-block`: Like inline elements, they begin in the same line if there is space, however, they take up all the properties of block elements - height, width, padding etc. 
+
 # The CSS Box Model
 
 All elements in an HTML page can be broken down to and represented in boxes. So CSS provides a box model which is used to size elements.
@@ -24,12 +32,21 @@ The basic content of HTML is surrounded by `padding`, `border`, and `margin`. Wh
 }
 {{< /codecaption >}}
 
-# CSS Display Properties
+Remember, margin and padding are transparent in nature, and do not accept any color values. However, border does accept color values. Margin takes up the color of the parent element, while padding takes up the color of content. 
 
-CSS elements can have two kind of display properties:
+You can define the length of all these properties by using shorthand or long hand forms. 
 
-* `display: block`: Take up as much width as possible (with restraint from parent) and height according to the content. Eg: `<div>`.
-* `display: inline`: Take up height and width according to content. Eg: `<span>`. You cannot set the height and width of these elements, but can set the border and padding (which gets applied to the sides but not in top and bottom). Inline elements wrap when the content is bigger than their parent.
+{{< codecaption lang="css" title="Defining Sizes" >}}
+p {
+    padding: 10px; /* on all sides */
+}
+p {
+    padding: 10px 20px; /* top bottom, left-right */
+}
+p {
+    padding: 10px 20px 30px 40px; /* top, right, bottom, left clockwise */
+}
+{{< /codecaption >}}
 
 # Most Used HTML Elements For Styling
 
